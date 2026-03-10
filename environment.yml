@@ -1,0 +1,14 @@
+name: linkedin-generator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - requests
+      - beautifulsoup4
+      - pymupdf
+      - ollama
+      - gradio
+      - python-dotenv
